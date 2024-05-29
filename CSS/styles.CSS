@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center ;
+  align-items: center;
+}
+
+.contenedor {
+  position: relative;
+}
+.general {
+  width: 25em;
+  height: 25em;
+  border-top: 1.5em solid black;
+  border-right: 1em solid black;
+  border-bottom: 1.5em solid black;
+  border-left: 15px solid white;
+  border-radius: 50%;
+}
+
+.general2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20em;
+  height: 22em;
+  border-top: 1.5em solid black;
+  border-right: 1em solid black;
+  border-bottom: 1.5em solid black;
+  border-left: 15px solid white;
+  border-radius: 50%;
+}
